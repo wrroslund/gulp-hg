@@ -20,6 +20,7 @@ describe('gulp-hg', function() {
         'utils',
         'add',
         'commit',
+		'summary',
         'status',
         'log'
     ];

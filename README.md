@@ -29,6 +29,7 @@ Support for the following mercurial method (NB: new updates are coming soon):
  * merge
  * pull
  * push
+ * summary
  * status
  * update
 
@@ -116,6 +117,15 @@ gulp.task('pull', function() {
 		if(!error){
 			//push completed
 		}
+  });
+});
+
+// summary
+gulp.task('summary', function() {
+    hg.summary(function(error, stdout){
+	if(!error){
+		//summary completed
+	}
   });
 });
 

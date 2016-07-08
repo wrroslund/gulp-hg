@@ -17,7 +17,7 @@ fs.mkdirSync(repositoriesPaths);
 
 var repoTestFolders = (function() {
     /**
-     * repository-test-0: test init, branch, add, commit, status, log
+     * repository-test-0: test init, branch, add, commit, status, log, summary
      * repository-test-1: test clone, pull, update
      * @type {Array}
      */
